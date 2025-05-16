@@ -45,13 +45,13 @@ public class JuegoLucha {
         String nombre = sc.nextLine();
 
         System.out.println("Elige clase para " + nombre + ":");
-        System.out.println("1. Guerrero 🛡");
+        System.out.println("1. Luchador 🛡");
         System.out.println("2. Enemigo 🔥");
         int opcion = Integer.parseInt(sc.nextLine());
 
         FabricaPersonaje fabrica;
         if (opcion == 1) {
-            fabrica = new FabricaGuerrero();
+            fabrica = new FabricaLuchador();
         } else {
             fabrica = new FabricaEnemigo();
         }
