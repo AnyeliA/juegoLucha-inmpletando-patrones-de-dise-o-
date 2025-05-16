@@ -1,4 +1,3 @@
-// Personaje.java
 public abstract class Personaje {
     protected String nombre;
     protected int vida = 100;
@@ -32,3 +31,4 @@ public abstract class Personaje {
     }
 
     public abstract String mostrar();
+}
