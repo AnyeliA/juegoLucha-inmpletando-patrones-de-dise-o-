@@ -1,8 +1,10 @@
-class AtaqueBasico implements Ataque [
-    private final random rand = new random();
+import java.util.Random;
 
+public class AtaqueBasico implements Ataque {
+    private final Random rand = new Random();
+
+    @Override
     public int ejecutar() {
-         return new Random().nextInt(21) + 10; // 10 a 30
+        return rand.nextInt(21) + 10; // 10 a 30
     }
-
-]
+}
