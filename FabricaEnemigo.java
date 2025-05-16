@@ -1,0 +1,6 @@
+public class FabricaEnemigo extends FabricaPersonaje {
+    @Override
+    public Personaje crearPersonaje(String nombre) {
+        return new Enemigo(nombre);
+    }
+}
