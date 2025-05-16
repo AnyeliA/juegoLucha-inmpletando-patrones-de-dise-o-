@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class JuegoLucha {
-    
+
     private Personaje jugador1;
     private Personaje jugador2;
 
@@ -57,5 +57,11 @@ public class JuegoLucha {
         }
 
         return fabrica.crearPersonaje(nombre);
+    }
+
+    // Método main correctamente organizado
+    public static void main(String[] args) {
+        JuegoLucha juego = new JuegoLucha();
+        juego.iniciar();
     }
 }
