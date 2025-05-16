@@ -1,5 +1,3 @@
-import java.util.*;
-// Patron Strategy para ataques
-interface Ataque {
-    ejecutar();
+public interface Ataque {
+    int ejecutar();
 }
