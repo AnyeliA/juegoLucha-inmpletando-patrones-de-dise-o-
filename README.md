@@ -1,1 +1,1 @@
-# juegoLucha-inmpletando-patrones-de-dise-o-
+# juegoLucha-inmpletando-patrones-de-diseño-
